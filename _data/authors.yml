@@ -37,12 +37,12 @@ author1:
     # instagram:       <username>
     # flickr:          <string@string>
     # deviantart:      <username>
-    twitch:          https://web.archive.org/web/20240315031355/https://twitch.tv/wuubi
-    # steam:           <number>
+    twitch:            wuubi
+    steam:             76561198062019751
     # reddit:          <username>
     # pinterest:       <username>
     # foursquare:      <number>
-    stackoverflow:   9281567/kyle-obrien
+    stackoverflow:     7179029/kyle
     # npm:             <username>
     # hackernews:      <username>
     # linkedin:        <firstname-lastname-string>
@@ -56,8 +56,8 @@ author1:
     # stripe:          https://<url>
     # slack:           https://<url>
     # gitlab:          <username>
-    medium:          https://medium.com/@kyleo
+    medium:            https://medium.com/@kyleo
     # wechat:          https://<url>
     # discord:         <invite-code>
     # mastodon:        https://<url>
-    x:               <kyle_o
+    x:                 kyle_o
