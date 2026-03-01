@@ -20,16 +20,15 @@
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Starter Kit
+title:                 Kyle OBrien.me
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Hydejack is a boutique Jekyll theme for hackers, nerds, and academics,
-  with a focus on personal sites that are meant to impress.
+  Technical writing and reflections on software and infrastructure.
 
 # A shorter description for the sidebar.
-tagline:               Change `tagline` in `_config.yml`
+tagline:               Notes on technology, systems, and career growth
 
 # A list of keywords for your blog
 keywords:              []
@@ -42,10 +41,10 @@ logo:                  /assets/img/logo.png
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  name:                Kyle OBrien
+  email:               0kyleobrien@gmail.com
   # # Used by `jekyll-seo-tag`:
-  # twitter:             <username>
+  twitter:             kyle_o
 
 # Add links to the sidebar.
 menu:
@@ -67,14 +66,14 @@ legal:
     url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2024. All rights reserved.
+copyright:             © 2020 - 2026. All rights reserved.
 
 # Format of the permalinks
 permalink:             /:categories/:year-:month-:day-:title/
 
 # Pagination configuration (used by the `blog` layout)
-paginate:              10
-paginate_path:         /:num/
+paginate:              5
+paginate_path:         /page/:num/
 
 
 # Theme
@@ -83,7 +82,7 @@ paginate_path:         /:num/
 # This will use the gem `jekyll-theme-hydejack`, as defined in the sibling `Gemfile`.
 theme: jekyll-theme-hydejack
 
-# You can uncomment `theme` above and replace it with `remote_theme` here iff you are using the 
+# You can uncomment `theme` above and replace it with `remote_theme` here if you are using the 
 # `jekyll-remote-theme` plugin (which is the case when using the legacy GitHub Pages pipeline).
 # This will fetch the `v9` branch of the public Hydejack repository on GitHub.
 # remote_theme: hydecorp/hydejack@v9
@@ -148,10 +147,10 @@ defaults:
       sitemap:         false
 
   # # You can use the following to enable comments on all posts.
-  # - scope:
-  #     type:            posts
-  #   values:
-  #     comments:        true
+  - scope:
+      type:            posts
+    values:
+      comments:        true
 
   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
   # but we want them to be `WebPage`s:
