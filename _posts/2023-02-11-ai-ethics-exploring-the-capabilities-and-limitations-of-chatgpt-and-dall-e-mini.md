@@ -57,3 +57,20 @@ I'd like to see the results for these same contexts with ChatGPT and have includ
 ![](https://kyleo.io/content/images/2024/02/DALL-E-2024-02-03-05.05.52---An-epic-8k-resolution-image-depicting-an-individual-astronaut-in-the-deepest-recesses-of-space--surrounded-by-twinkling-stars.-The-scene-captures-a-br.webp)
 
 `individual astronaut, deepest recess of space, twinkling stars, space event, supernova, reflection on astronaut helmet, fantasy, rendering, photograph, 8k, epic`
+
+---
+
+[Update 2026-03-03]
+And now, the same prompts through Craiyon in 2026:
+
+![Craiyon render: individual astronaut in the deepest recesses of space, celestial event, 4k](/assets/img/blog/posts/ai-ethics-exploring-the-capabilities-and-limitations-of-chatgpt-and-dall-e-mini/03-03-2026-craiyon-celestial-event-4k-space.webp)
+
+`individual astronaut, deepest recess of space, twinkling stars, space event, supernova, reflection on astronaut helmet, fantasy, rendering, photograph, 8k, epic`
+
+![Craiyon render: six devils dressed in white in the style of Francisco Goya](/assets/img/blog/posts/ai-ethics-exploring-the-capabilities-and-limitations-of-chatgpt-and-dall-e-mini/03-03-2026-six-little-devils.webp)
+
+`a painting of six devils dressed in white, evil, dark, painting oil canvas, realism, in the style of francisco goya, devils dancing in a circle around a bonfire, telephoto, night on bald mountain, devils with capes and horns, ritualistic dance, fantasy, trending on /r/Art`
+
+![Craiyon render: chatting with a bot on a futuristic screen](/assets/img/blog/posts/ai-ethics-exploring-the-capabilities-and-limitations-of-chatgpt-and-dall-e-mini/03-03-2026-craiyon-chatting-with-a-bot.webp)
+
+`chatting with a bot, screen with text, futuristic, unreal engine 5, close up`
