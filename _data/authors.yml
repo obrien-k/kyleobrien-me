@@ -56,7 +56,7 @@ author1:
     # stripe:          https://<url>
     # slack:           https://<url>
     # gitlab:          <username>
-    medium:            https://medium.com/@kyleo
+    medium:            '@kyleo'
     # wechat:          https://<url>
     # discord:         <invite-code>
     # mastodon:        https://<url>

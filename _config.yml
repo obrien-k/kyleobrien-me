@@ -3,7 +3,7 @@
 
 # Uncomment and set the URL of your site (with protocol, e.g. `https://`)
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-# url:                   https://username.github.io
+url:                   https://obrien-k.github.io
 
 # Uncomment and set the "base URL" of your site.
 # When your site is in a subdirectory, set to `/<name of directory>`,
@@ -41,7 +41,7 @@ logo:                  /assets/img/logo.png
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                Kyle OBrien
+  name:                Kyle OBrien (Kai)
   email:               0kyleobrien@gmail.com
   # # Used by `jekyll-seo-tag`:
   twitter:             kyle_o
@@ -62,7 +62,24 @@ legal:
     url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2020 - 2026. All rights reserved.
+copyright: |
+  <p><pre>
+                            .  *    ✦      .    *
+              *        .          *    .        ✦
+         .        ✦   *    .            *
+                             \
+                              \  ,//')
+                       *    --= /(( '=  ✦
+                             /  ) \)
+                            /  /   \\
+                      .    '  '     `
+              *  .                         *
+            .~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~.
+          .~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~.
+        .~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~.
+      .~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~.
+  </pre></p>
+  © 2020 - 2026. All rights reserved.
 
 # Format of the permalinks
 permalink:             /:title/
@@ -88,12 +105,12 @@ theme: jekyll-theme-hydejack
  
 # Sidebar image and theme color of the site.
 accent_image:          /assets/img/sidebar-bg.jpg
-accent_color:          rgb(79,177,186)
+accent_color:          rgb(25,55,71)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
 # Defaults to `accent_color`.
-theme_color:           rgb(25,55,71)
+theme_color:           rgb(79,177,186)
 
 # IMPORTANT:
 # As of Hydejack 9.2, Google Fonts are turned off by default due to a stronger focus on privacy.
@@ -120,15 +137,6 @@ theme_color:           rgb(25,55,71)
 defaults:
   # You can use this to provide a default accent color and background for
   # all pages under a given path:
-  - scope:
-      path:            hyde/
-    values:
-      accent_color:    rgb(38,139,210)
-      theme_color:     rgb(32,32,32)
-      accent_image:
-        background:    rgb(32,32,32)
-        overlay:       false
-
   # Don't include documents in assets in the sitemap
   - scope:
       path:            assets/
@@ -305,6 +313,8 @@ exclude:
   - .wrangler
   - '*.toml'
   - vendor
+  - docs/
+  - _featured_categories/example.md
   - Gemfile
   - Gemfile.lock
   - functions

@@ -39,7 +39,7 @@ gem "duktape"
 gem "webrick"
 
 # Uncomment when using the `--lsi` option for `jekyll build`
-# gem "classifier-reborn"
+gem "classifier-reborn"
 
 group :jekyll_plugins do
   gem "jekyll-default-layout"
