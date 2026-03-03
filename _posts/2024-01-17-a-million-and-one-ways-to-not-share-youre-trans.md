@@ -12,13 +12,14 @@ tags:
   - career-path
 categories:
   - narrative
+permalink: /im-trans/
 ---
 
 💡
 
 This is part three of a long-form series where I describe my early experiences in the tech world. Each part stands alone but is chronologically cataloged for a comprehensive narrative.  
   
-I: [Dreaming in Code || Lucid Dreaming](https://kyleo.io/dreaming-in-code-lucid-dreaming/) II: [Waking Software Engineering](https://kyleo.io/waking-software-engineering/)
+I: [Dreaming in Code || Lucid Dreaming](/dreaming-in-code-lucid-dreaming/) II: [Waking Software Engineering](/waking-software-engineering/)
 
 When I first wrote this in middle school, the form was an obtuse graduation speech. The primary focus was how significant moments of one’s life are decided at a time when they have little control over them.
 
