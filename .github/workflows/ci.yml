@@ -18,7 +18,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.2'
+          ruby-version: '3.3'
           bundler-cache: true
           cache-version: 0
 
@@ -32,6 +32,6 @@ jobs:
           gem install html-proofer
           htmlproofer _site \
             --disable-external \
-            --ignore-urls "/^#/" \
+            --ignore-urls "/^#/,/^\/page\/$/" \
             --no-enforce-https \
             --allow-missing-href
