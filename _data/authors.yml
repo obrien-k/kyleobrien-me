@@ -3,7 +3,7 @@
 # Change `author1` to your shortname.
 author1:
   name:              Kyle OBrien (Kai)
-  email:             0kyleobrien@gmail.com
+  email:             obrienk@webbhost.net
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
@@ -26,11 +26,11 @@ author1:
   # You can also provide an absolute URL (starting with https://) instead of usernames
   social:
     github:            obrien-k
-    # email:           <mail@domain.tld>
+    email:             obrienk@webbhost.net
     # rss:             https://<url>/feed.xml
-    # facebook:        <username>
+    facebook:          kyle0io
     # google:          <number>
-    # youtube:         <string_string_string>
+    youtube:           https://youtube.com/@kyleoio
     # spotify:         <user>/<number>
     # soundcloud:      <username>
     # lastfm:          <username>
@@ -45,19 +45,19 @@ author1:
     stackoverflow:     7179029/kyle
     # npm:             <username>
     # hackernews:      <username>
-    # linkedin:        <firstname-lastname-string>
+    linkedin:          https://linkedin.com/in/0kyle
     # paypal:          <username>
     # download:        <url>
     # keybase:         <username>
     # signal:          <group-invite-code>
     # threads:         @<username>
-    # playstation:     https://<url>
+    playstation:       https://profile.playstation.com/XeroCint
     # messenger:       https://<url>
     # stripe:          https://<url>
     # slack:           https://<url>
     # gitlab:          <username>
     medium:            '@kyleo'
     # wechat:          https://<url>
-    # discord:         <invite-code>
+    discord:           CV2wnhF
     # mastodon:        https://<url>
     x:                 kyle_o
