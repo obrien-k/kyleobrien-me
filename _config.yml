@@ -43,6 +43,8 @@ author:
 menu:
   - title:             About
     url:               /about/
+  - title:             Constellations
+    url:               /constellations/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -82,7 +84,7 @@ theme: jekyll-theme-hydejack
  
 # Sidebar image and theme color of the site.
 accent_image:          /assets/img/sidebar-bg.jpg
-accent_color:          rgb(25,55,71)
+accent_color:          rgb(225,0,255)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
@@ -169,7 +171,7 @@ hydejack:
   project_addons:      [about, newsletter, other, comments]
 
   # Set to `true` if you don't want to show an icon indicating external links
-  no_mark_external:    false
+  no_mark_external:    true
 
   # Set to `true` if third party plugins fail to work with dynamically loaded pages
   no_push_state:       false
@@ -203,7 +205,7 @@ hydejack:
   no_toc:              false
 
   # When set to `true`, will not extend the content in the "third column" on large screens.
-  # Instead, all content will remains within the center column.
+  # Instead, all content will remain within the center column.
   # Note that this will not affect the Table of Contents, use `no_toc` instead.
   no_third_column:     false
 
