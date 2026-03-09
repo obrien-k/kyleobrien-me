@@ -9,6 +9,32 @@ sitemap: false
 * this list will be replaced by the toc
 {:toc .large-only}
 
+## v0.0.2
+Mar 09 2026
+{:.heading.post-date}
+
+### Indieweb-ify
+- Custom CSS theme: frutiger aero meets 16-bit — translucent glass panels, gradient link underlines, CRT scanline overlay, pixel-shadow image frames
+- Vaporwave-inflected scrollbars and selection color
+- Glassy sidebar overlay and card hover glow
+- Terminal-style code blocks with magenta accent border
+- Gradient horizontal rules and frosted blockquotes
+
+### Accessibility
+- Skip-to-content link via `_includes/my-head.html`
+- `:focus-visible` outlines for keyboard navigation
+- `prefers-reduced-motion` — disables all animations and removes scanline overlay
+- `prefers-contrast: more` — solidifies translucent borders, adds traditional underlines
+
+### Indieweb Furniture
+- Constellations page restructured as links page with Neighbors, Frequencies, and Badges sections
+- `.badge-wall` component for 88x31 pixel badge trading
+- `.constellation-link` styled link chips
+- Personalized 404, offline, and error messages in `_data/strings.yml`
+
+### Config
+- Enabled explicit monospace font stack for code blocks
+
 ## v0.0.1
 Mar 09 2026
 {:.heading.post-date}

@@ -1,4 +1,9 @@
-// You can add CSS rules here that will be inlined into each document.
-// .sidebar a {
-//   text-shadow: rgba(0, 0, 0, 0.25) 0.1rem 0.1rem 0.15rem;
-// }
+// Critical inline CSS — loads before external stylesheets
+// Keep this small; it's injected into every <head>
+
+// Hide skip-link until focused (prevent FOUC flash)
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 0;
+}
