@@ -20,9 +20,8 @@ hide_description: true
 ---
 
 ## Badges
-
 <div class="badge-wall" role="list" aria-label="Site badges">
-  [IMAGE placeholder 88x31 alt="kyleobrien.me badge"]
+  <img src="/assets/img/constellation.png" alt="KyleOBrien.me" width="88" height="31">
 </div>
 
 Want to trade badges? Reach out via any link in the sidebar.

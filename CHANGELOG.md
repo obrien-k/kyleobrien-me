@@ -32,11 +32,16 @@ Mar 09 2026
 - `.constellation-link` styled link chips
 - Personalized 404, offline, and error messages in `_data/strings.yml`
 
+### Comments
+- Giscus integration via `_includes/my-comments.html` (GitHub Discussions-backed, no third-party service)
+- Comment input above existing comments, lazy-loaded, respects OS color scheme
+- Noscript fallback linking to GitHub Discussions
+
 ### Config
 - Enabled explicit monospace font stack for code blocks
 
 ## v0.0.1
-Mar 09 2026
+Mar 08 2026
 {:.heading.post-date}
 
 ### Site Foundation
