@@ -8,6 +8,12 @@ sitemap: false
 * this list will be replaced by the toc
 {:toc .large-only}
 
+### Kyle O
+Articles Copyright (c) 2020 - 2026 Kyle O.
+
+Theme modifications licensed via [GPL](http://www.gnu.org/licenses/), more information of which can be found below.
+
+### Hydejack theme Copyright
 Copyright (c) 2020 Florian Klampfer <https://qwtel.com/>
 
 This program is free software: you can redistribute it and/or modify
