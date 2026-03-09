@@ -1,20 +1,36 @@
-# Hydejack Starter Kit
+# kyleobrien.me
 
-A quicker, cleaner way to get started blogging with [Hydejack](https://hydejack.com/).
+Personal blog and portfolio for Kyle OBrien (Kai). Built with [Jekyll](https://jekyllrb.com/) and the [Hydejack PRO](https://hydejack.com/) theme.
 
-## Quick Start
-### Running locally
-1. Clone repository (git users), or [download] and unzip.
-2. Open terminal, `cd` into root directory (where `_config.yml` is located)
-3. Run `bundle install` [^1]
-4. Run `bundle exec jekyll serve`
-5. Open <http://localhost:4000/hydejack-starter-kit/>
+Live at [kyleobrien.me](https://kyleobrien.me).
 
-## What's next?
-* Open files and read the comments
-* Read the [docs](https://hydejack.com/docs/)
-* Buy the [PRO version](https://hydejack.com/download/) to get the project and resume layout, newsletter subscription box, custom forms, and more.
+## Local Development
 
-[^1]: Requires Bundler. Install with `gem install bundler`.
+```bash
+bundle install
+bundle exec jekyll serve
+```
 
-[download]: https://github.com/hydecorp/hydejack-starter-kit/archive/master.zip
+Site will be available at `http://localhost:4000`.
+
+**Requirements**: Ruby, Bundler (`gem install bundler`), and a JavaScript runtime (Node.js) for KaTeX math rendering.
+
+## Deployment
+
+Pushes to `main` trigger a GitHub Actions workflow (`.github/workflows/jekyll.yml`) that builds and deploys to GitHub Pages. PRs to `main` run a CI check (`.github/workflows/ci.yml`) that builds the site and runs html-proofer.
+
+## Project Structure
+
+```
+_posts/          Blog posts (date-prefixed markdown)
+_drafts/         Unpublished drafts
+_featured_categories/  Category pages
+tags/            Tag index pages
+_data/           Author profile, social links, theme strings/variables
+_includes/       Custom head/body includes (Hydejack override points)
+_sass/           Custom SCSS overrides
+assets/          Images, icons, CSS
+docs/            Project documentation (reserved)
+```
+
+The Hydejack PRO theme is gem-based (`jekyll-theme-hydejack`). Layouts and most includes come from the gem; only override files live in this repo.
