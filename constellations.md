@@ -2,12 +2,8 @@
 layout: plain
 title: Constellations
 description: >
-  Links to corners of the web worth visiting. Think affiliates, but genuine.
+  Links to corners of the web worth visiting.
 hide_description: true
----
-
-Links to corners of the web worth visiting. Think affiliates, but genuine.
-
 ---
 
 ## Neighbors
