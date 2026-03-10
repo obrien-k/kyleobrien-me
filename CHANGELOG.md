@@ -9,6 +9,16 @@ sitemap: false
 * this list will be replaced by the toc
 {:toc .large-only}
 
+## v0.0.3
+Mar 09 2026
+{:.heading.post-date}
+
+### Interactivity
+- Sound toggle in sidebar footer — Web Audio API synthesized click/hover/page-transition sounds, no audio files, state persisted in localStorage
+- Status widget in sidebar — mood, activity, and now-playing pulled from `_data/status.yml`
+- Konami code Easter egg (`↑↑↓↓←→←→BA`) — triggers Superstar mode: CRT flicker burst, screen shake, 8 seconds of rainbow color cycling with star particles, ascending/descending arpeggio
+- All features respect `prefers-reduced-motion`; Superstar mode falls back to a gentle color pulse
+
 ## v0.0.2
 Mar 09 2026
 {:.heading.post-date}
