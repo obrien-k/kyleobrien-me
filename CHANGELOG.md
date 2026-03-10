@@ -37,6 +37,9 @@ Mar 09 2026
 - Comment input above existing comments, lazy-loaded, respects OS color scheme
 - Noscript fallback linking to GitHub Discussions
 
+### Resume
+- Custom `_layouts/resume.html` with monospace-terminal aesthetic, glassy skill chips, and print-ready output
+
 ### Config
 - Enabled explicit monospace font stack for code blocks
 
