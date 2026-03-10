@@ -1,6 +1,6 @@
 # kyleobrien.me
 
-Personal blog and portfolio for Kyle OBrien (Kai). Built with [Jekyll](https://jekyllrb.com/) and the [Hydejack PRO](https://hydejack.com/) theme.
+Personal blog and portfolio for Kyle OBrien (Kai). Built with [Jekyll](https://jekyllrb.com/) and the [Hydejack](https://hydejack.com/) theme.
 
 Live at [kyleobrien.me](https://kyleobrien.me).
 
