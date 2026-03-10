@@ -35,7 +35,7 @@ toc:                   Table of Contents
 note:                  Note
 description:           Description
 search:                Search
-search_placeholder:    Type something…
+search_placeholder:    Search the archive…
 
 loading:               Loading…
 redirecting:           Redirecting…
@@ -49,23 +49,23 @@ cookies_banner:
   okay:                Okay
 
 not_found:
-  title:               '404: Page Not Found'
+  title:               '404'
   message:             |
-    Sorry, we've misplaced that URL or it's pointing to something that doesn't exist.
-    <!--home_link--> to try finding it again.
-  home_link:           Head back home
+    This page doesn't exist — or it did once, and the web moved on.
+    <!--home_link-->.
+  home_link:           Return to the index
 
 offline:
-  title:               'You are Offline'
+  title:               'Offline'
   message:             |
-    Sorry, but you appear to be offline and this page has not been prepared for offline viewing.
-    <!--home_link--> to try finding another page.
-  home_link:           Head back home
+    You're offline and this page isn't cached.
+    <!--home_link--> when connectivity returns.
+  home_link:           Try the index
 
 error:
   title:               Error
   message:             |
-    Sorry, an error occurred while loading <!--link-->.
+    Something broke while loading <!--link-->.
 
 # Separators
 # ---------------------------------------------------------------------------------------

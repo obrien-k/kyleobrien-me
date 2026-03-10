@@ -2,12 +2,26 @@
 layout: plain
 title: Constellations
 description: >
-  These are external resources that are recommended for technical proficiency, minimal design, and deep thought.
+  Links to corners of the web worth visiting.
 hide_description: true
 ---
 
-These are external resources that are recommended for technical proficiency, minimal design, and deep thought.
+## Neighbors
 
-[Andrew's Space](https://andrewdelisa.com/)
+<a href="https://andrewdelisa.com/" class="constellation-link no-mark">Andrew's Space</a>
+<a href="https://gwern.net/" class="constellation-link no-mark">Gwern Branwen</a>
 
-[Gwern Branwen](https://gwern.net/)
+---
+
+## Frequencies
+
+<a href="https://plaza.one/" class="constellation-link no-mark">Nightwave Plaza</a>
+
+---
+
+## Badges
+<div class="badge-wall" role="list" aria-label="Site badges">
+  <img src="/assets/img/constellation.png" alt="KyleOBrien.me" width="88" height="31">
+</div>
+
+Want to trade badges? Reach out via any link in the sidebar.

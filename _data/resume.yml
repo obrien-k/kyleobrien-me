@@ -1,0 +1,79 @@
+basics:
+  name: "Kyle O'Brien (Kai)"
+  label: "Full Stack Web Developer"
+  email: "obrienk@webbhost.net"
+  location:
+    region: "Texas or Remote"
+  profiles:
+    - network: "LinkedIn"
+      url: "https://www.linkedin.com/in/0kyle/"
+    - network: "GitHub"
+      url: "https://github.com/obrien-k"
+work:
+  - company: "Apollo GraphQL"
+    website: "https://apollographql.com"
+    startDate: "June 2022"
+    endDate: "March 2024"
+    positions:
+      - position: "Senior Development Support Engineer (Full-time, Remote)"
+        startDate: "June 2022"
+        endDate: "March 2024"
+        highlights:
+          - "Launched Help Center: Composed written content for Apollo's Help Center resulting in over 100 public articles. Developed custom Algolia integration for ZenDesk Guide to align search results with Apollo."
+          - "Open Source Contributions: Addressed Open Source and enterprise inquiries regarding the Apollo platform and Federated GraphQL, resulting in improved customer satisfaction and reduced support response times. Contributed code, documentation, and infrastructure to internal and external Apollo projects."
+  - company: "Pharos"
+    website: "https://app.pharoscrm.com"
+    startDate: "March 2021"
+    endDate: "June 2022"
+    positions:
+      - position: "Site Reliability Engineer (Full-time, Remote)"
+        startDate: "March 2021"
+        endDate: "June 2022"
+        highlights:
+          - "Training Specialist: Subject Matter Expert for Pharos B2B platform and integrations. Resolved on-call escalations for 18 agency suppliers as solo SRE on the Pharos platform. Onboarded enterprise merchants and developers to Pharos platform. Curated training documentation for L3 and related informational resources."
+          - "Customer Success Engineer: Bridged communication between executive leadership, engineering, and customer success teams. Architected solutions for implementation using Pharos APIs. Managed product lifecycle working with stakeholders to develop React applications. Collaborated with sister company RepZio to deploy Node.js services for timekeeping and employee management."
+  - company: "BigCommerce"
+    website: "https://bigcommerce.com"
+    startDate: "June 2017"
+    endDate: "October 2020"
+    positions:
+      - position: "Developer Community Moderator (Full-time Austin, TX + Remote)"
+        startDate: "August 2019"
+        endDate: "October 2020"
+        highlights:
+          - "Developer Resources: Published written-material with code examples for developer-focused spaces in Node.js, React, and Python. Assisted Developer Experience team with introducing Developer Library and Contribution programs, and a Developer Community Code of Conduct."
+          - "VueConf US 2020: Attended VueConf 2020 with BigCommerce's Developer Experience team, sharing insights of BigCommerce API capabilities for headless use-cases. Demoed BigCommerce control panel, serverless front-ends, co-wrote Vue.js discovery article and code examples for Developer Blog."
+      - position: "Senior Technical Support Specialist (Full-time, Austin, TX)"
+        startDate: "July 2018"
+        endDate: "August 2019"
+        highlights:
+          - "Process Improvement: Trained peers to effectively submit technical escalations using ELK-stack queries, trained new products, and created a tool to improve BigCommerce CLI on-boarding using Bootstrap and Node.js."
+      - position: "Technical Support Representative (Full-time, Austin, TX)"
+        startDate: "June 2017"
+        endDate: "July 2018"
+        highlights:
+          - "Code Noobs: Founded club to teach peers JavaScript, Node.js, and React. Met every other Saturday with visits from Engineering department. Slack group with over 50 members."
+          - "HTML Princess: Inspected elements of web pages and research methods of changing behavior in CSS and HTML using BigCommerce Stencil and Blueprint frameworks. Educated merchants on best practices for store design, SEO, and utilizing scripts."
+skills:
+  - name: "Specialties"
+    keywords:
+      - "Technical Writing"
+      - "TypeScript"
+      - "React"
+      - "Vue.js"
+      - "Node.js"
+      - "GraphQL"
+  - name: "More Tools and Languages"
+    keywords:
+      - "DNS"
+      - "Google Cloud"
+      - "MongoDB"
+projects:
+  - name: "marstronaut-federation"
+    url: "https://github.com/obrien-k/marstronaut-federation"
+    description: "Built a GraphQL-backend for XKCD and NASA APIs to display Mars Rover photos and XKCD comics on a React front-end."
+    date: "2021"
+  - name: "Multi-Product Storefront Cart"
+    url: "https://github.com/obrien-k/multi-sf-cart"
+    description: "This is a modification for the bigcommerce/cornerstone theme to display multiple products within the same PDP. Check out my article for more info on the BigCommerce Developer Blog."
+    date: "2020"

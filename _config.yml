@@ -43,6 +43,8 @@ author:
 menu:
   - title:             About
     url:               /about/
+  - title:             Resume
+    url:               /resume/
   - title:             Constellations
     url:               /constellations/
 
@@ -111,7 +113,7 @@ theme_color:           rgb(79,177,186)
 
 # The font used for code blocks. Expects a string that is a valid CSS font-family value. 
 # Defaults to the [System Monospace Font Stack](https://qwtel.com/posts/software/the-monospaced-system-ui-css-font-stack/).
-# font_code:             Fira Code, Menlo, Monaco, Consolas, monospace;
+font_code:             'Menlo, Monaco, Consolas, monospace'
 
 defaults:
   # You can use this to provide a default accent color and background for
