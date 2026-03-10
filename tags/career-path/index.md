@@ -6,5 +6,5 @@ hidden: true
 ---
 
 {% for post in site.tags['career-path'] %}
-  - [{{ post.title }}]({{ post.url }})
+  - <a href="{{ post.url }}">{{ post.title }}</a>
 {% endfor %}

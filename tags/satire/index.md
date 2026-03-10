@@ -6,5 +6,5 @@ nav_exclude: true
 ---
 
 {% for post in site.tags['satire'] %}
-  - [{{ post.title }}]({{ post.url }})
+  - <a href="{{ post.url }}">{{ post.title }}</a>
 {% endfor %}
