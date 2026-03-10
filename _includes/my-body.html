@@ -237,16 +237,17 @@ Code for integrating CloudFlare's email protection with Hydejack's single page a
     if (!SFX.ctx) SFX.init();
     SFX.starPower();
 
+    // CRT stutter + shake on content area only — sidebar stays still
     var content = document.querySelector('.content');
     if (content) {
-      content.classList.add('superstar-flicker');
-      setTimeout(function() { content.classList.remove('superstar-flicker'); }, 500);
+      content.classList.add('superstar-crt-stutter');
+      setTimeout(function() { content.classList.remove('superstar-crt-stutter'); }, 1500);
+      content.classList.add('superstar-shake');
+      setTimeout(function() { content.classList.remove('superstar-shake'); }, 500);
     }
 
-    document.body.classList.add('superstar-shake');
-    setTimeout(function() { document.body.classList.remove('superstar-shake'); }, 300);
-
-    document.body.classList.add('superstar-mode');
+    // Delay rainbow so first stutter pulse lands on clean screen
+    setTimeout(function() { document.body.classList.add('superstar-mode'); }, 200);
 
     spawnStars(25);
     starInterval = setInterval(function() { spawnStars(4); }, 500);

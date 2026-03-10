@@ -16,7 +16,9 @@ Mar 09 2026
 ### Interactivity
 - Sound toggle in sidebar footer — Web Audio API synthesized click/hover/page-transition sounds, no audio files, state persisted in localStorage
 - Status widget in sidebar — mood, activity, and now-playing pulled from `_data/status.yml`
-- Konami code Easter egg (`↑↑↓↓←→←→BA`) — triggers Superstar mode: CRT flicker burst, screen shake, 8 seconds of rainbow color cycling with star particles, ascending/descending arpeggio
+- Konami code Easter egg (`↑↑↓↓←→←→BA`) — triggers Superstar mode: multi-pulse CRT stutter (4 pulses, `step-end` timing), content shake, 8 seconds of rainbow color cycling with star particles, ascending/descending arpeggio
+- Superstar shake targets `.content` only (sidebar stays still); uses `left`/`top` animation to avoid breaking `position: fixed` scanline overlay
+- Rainbow activation delayed 200ms so first CRT stutter pulse lands on a clean screen
 - All features respect `prefers-reduced-motion`; Superstar mode falls back to a gentle color pulse
 
 ## v0.0.2
