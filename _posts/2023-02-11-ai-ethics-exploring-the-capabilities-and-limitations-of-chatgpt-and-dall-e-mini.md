@@ -11,9 +11,8 @@ categories:
   - artificial-intelligence
 ---
 
-💡
-
-This post has been updated to include ChatGPT-generated images for comparison's sake. It's not entirely fair to Craiyon but I encourage you to try the image prompts and see how far they've progressed as well.
+💡 This post has been updated to include ChatGPT-generated images for comparison's sake. It's not entirely fair to Craiyon but I encourage you to try the image prompts and see how far they've progressed as well.
+{:.note}
 
 As I washed dishes during a power outage, I pondered the idea of hiring someone to do it for me. This is a common dilemma I face and usually ends with me concluding that outsourcing it would detract from my self-sufficiency and character-building. However, today, my thoughts drifted to technological advancements, specifically the AI application known as [ChatGPT](https://chat.openai.com/).
 

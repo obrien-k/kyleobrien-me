@@ -10,10 +10,9 @@ image: /assets/img/blog/posts/dreaming-in-code-lucid-dreaming/cover-lg.png
 ---
 
 
-💡
+💡 This is part one of a long-form series where I describe my early experiences in the tech world. Each part stands alone but is chronologically cataloged for a comprehensive narrative.  
+{:.note}
 
-This is part one of a long-form series where I describe my early experiences in the tech world. Each part stands alone but is chronologically cataloged for a comprehensive narrative.  
-  
 II: [Waking Software Engineering](/waking-software-engineering/) III: [A Million and One Ways NOT to Share You're Trans](/im-trans/)
 
 # Dreaming in Code
