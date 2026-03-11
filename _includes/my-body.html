@@ -153,7 +153,9 @@ Code for integrating CloudFlare's email protection with Hydejack's single page a
 
   function injectSoundToggle() {
     if (document.querySelector('.sidebar-sfx')) return;
-    var social = document.querySelector('.sidebar-social');
+    var sidebar = document.querySelector('.sidebar-sticky');
+    if (!sidebar) return;
+    var social = sidebar.querySelector('.sidebar-social');
     if (!social) return;
 
     var wrap = document.createElement('div');

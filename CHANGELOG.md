@@ -10,7 +10,7 @@ sitemap: false
 {:toc .large-only}
 
 ## v0.0.3
-Mar 09 2026
+Mar 11 2026
 {:.heading.post-date}
 
 ### Interactivity
