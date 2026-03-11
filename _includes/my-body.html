@@ -56,9 +56,9 @@ Code for integrating CloudFlare's email protection with Hydejack's single page a
 (function() {
   'use strict';
 
-  // -----------------------------------------------------------------
-  // Sound system — Web Audio API, no files needed
-  // -----------------------------------------------------------------
+  /* ----------------------------------------------------------------- */
+  /* Sound system — Web Audio API, no files needed                     */
+  /* ----------------------------------------------------------------- */
   var SFX = {
     ctx: null,
     enabled: localStorage.getItem('sfx') !== 'off',
@@ -86,7 +86,7 @@ Code for integrating CloudFlare's email protection with Hydejack's single page a
       osc.stop(t + dur);
     },
 
-    // Force play even when disabled (toggle feedback)
+    /* Force play even when disabled (toggle feedback) */
     playForce: function(freq, dur, type, vol) {
       var was = this.enabled;
       this.enabled = true;
@@ -111,9 +111,9 @@ Code for integrating CloudFlare's email protection with Hydejack's single page a
     }
   };
 
-  // -----------------------------------------------------------------
-  // Status widget — inject into sidebar
-  // -----------------------------------------------------------------
+  /* ----------------------------------------------------------------- */
+  /* Status widget — inject into sidebar                               */
+  /* ----------------------------------------------------------------- */
   {% if site.data.status %}
   function injectStatus() {
     if (document.querySelector('.sidebar-status')) return;
@@ -146,9 +146,9 @@ Code for integrating CloudFlare's email protection with Hydejack's single page a
   }
   {% endif %}
 
-  // -----------------------------------------------------------------
-  // Sound toggle — sidebar footer
-  // -----------------------------------------------------------------
+  /* ----------------------------------------------------------------- */
+  /* Sound toggle — sidebar footer                                     */
+  /* ----------------------------------------------------------------- */
   var toggleBtn;
 
   function injectSoundToggle() {
@@ -191,9 +191,9 @@ Code for integrating CloudFlare's email protection with Hydejack's single page a
         + '<line x1="17" y1="9" x2="23" y2="15"/></svg>SFX';
   }
 
-  // -----------------------------------------------------------------
-  // Event delegation — clicks & hovers for sound
-  // -----------------------------------------------------------------
+  /* ----------------------------------------------------------------- */
+  /* Event delegation — clicks & hovers for sound                      */
+  /* ----------------------------------------------------------------- */
   document.addEventListener('click', function(e) {
     if (e.target.closest('a, button:not(.sfx-toggle)')) SFX.click();
   }, true);
@@ -202,7 +202,7 @@ Code for integrating CloudFlare's email protection with Hydejack's single page a
     if (e.target.closest('.sidebar-nav a, .sidebar-social a')) SFX.hover();
   });
 
-  // Page transitions (Hydejack SPA)
+  /* Page transitions (Hydejack SPA) */
   var pushState = document.getElementById('_pushState');
   if (pushState) {
     pushState.addEventListener('hy-push-state-after', function() {
@@ -210,9 +210,9 @@ Code for integrating CloudFlare's email protection with Hydejack's single page a
     });
   }
 
-  // -----------------------------------------------------------------
-  // Konami code — Superstar mode
-  // -----------------------------------------------------------------
+  /* ----------------------------------------------------------------- */
+  /* Konami code — Superstar mode                                      */
+  /* ----------------------------------------------------------------- */
   var KONAMI = [38,38,40,40,37,39,37,39,66,65];
   var konamiPos = 0;
   var superstarTimer = null;
@@ -239,7 +239,7 @@ Code for integrating CloudFlare's email protection with Hydejack's single page a
     if (!SFX.ctx) SFX.init();
     SFX.starPower();
 
-    // CRT stutter + shake on content area only — sidebar stays still
+    /* CRT stutter + shake on content area only — sidebar stays still */
     var content = document.querySelector('.content');
     if (content) {
       content.classList.add('superstar-crt-stutter');
@@ -248,7 +248,7 @@ Code for integrating CloudFlare's email protection with Hydejack's single page a
       setTimeout(function() { content.classList.remove('superstar-shake'); }, 500);
     }
 
-    // Delay rainbow so first stutter pulse lands on clean screen
+    /* Delay rainbow so first stutter pulse lands on clean screen */
     setTimeout(function() { document.body.classList.add('superstar-mode'); }, 200);
 
     spawnStars(25);
@@ -282,9 +282,9 @@ Code for integrating CloudFlare's email protection with Hydejack's single page a
     }
   }
 
-  // -----------------------------------------------------------------
-  // Init
-  // -----------------------------------------------------------------
+  /* ----------------------------------------------------------------- */
+  /* Init                                                              */
+  /* ----------------------------------------------------------------- */
   function initSidebar() {
     {% if site.data.status %}injectStatus();{% endif %}
     injectSoundToggle();
