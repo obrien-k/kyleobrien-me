@@ -20,7 +20,7 @@ II: [Waking Software Engineering](/waking-software-engineering/) III: [A Million
 
 I began the article "[How I Started a Code Study Group (and Why You Should Too)](https://medium.com/bigcommerce-developer-blog/how-i-started-a-code-study-group-and-why-you-should-too-fbed8d4fbb54)" by explaining how excited I was to start working at BigCommerce. It was only fair to summarize it in a word, or I would have needed a separate piece to express how pleased I was. Since a young age, I'd wanted to join a start-up but had little idea what that would entail. I imagined the early days of Apple or Google, where thoughts ran rampant. There are many likely culprits for why I believed this, the most influential of which was Scott Rosenberg's ["](https://books.google.com/books/about/Dreaming_in_Code.html?id=dZqcuS2SfDgC)*[Dreaming in Code:  Two Dozen Programmers, Three Years, 4732 Bugs, and One Quest for Transcendent Software](https://books.google.com/books/about/Dreaming_in_Code.html?id=dZqcuS2SfDgC)*["](https://books.google.com/books/about/Dreaming_in_Code.html?id=dZqcuS2SfDgC).
 
-Dreaming in code, I partook in regularly by that point in life, my mind riddled with [Lua](https://www.lua.org/), the language of choice for [homebrew PlayStation Portable (PSP) apps](https://en.wikibooks.org/wiki/PSP_Development/Lua). I initially grabbed "*Dreaming in Code*" from the display shelf at my library as a teenager and couldn't believe my luck. The local branch's technical section had become incredibly outdated by web standards. "[On the Road](https://en.wikipedia.org/wiki/The_Road_Ahead_(Bill_Gates_book))" read much differently for me at age 12 in 2005 then it may have in 1995.
+Dreaming in code, I partook in regularly by that point in life, my mind riddled with [Lua](https://www.lua.org/), the language of choice for [homebrew PlayStation Portable (PSP) apps](https://en.wikibooks.org/wiki/PSP_Development/Lua). I initially grabbed "*Dreaming in Code*" from the display shelf at my library as a teenager and couldn't believe my luck. The local branch's technical section had become incredibly outdated by web standards. "[The Road Ahead](https://en.wikipedia.org/wiki/The_Road_Ahead_(Bill_Gates_book))" read much differently for me at age 12 in 2005 then it may have in 1995.
 
 To me, "Dreaming in Code" is a current technical and cultural perspective about the continued rising action of this informational age. I've recently realized how it tied together my progression as a programmer, and my favorite aspect of "Dreaming in Code" is Rosenberg's inclusion of several "programming laws." These, woven together by Rosenberg, help explain how one slippery coding bug can travel through the most secure safety nets.
 
@@ -91,7 +91,7 @@ The Chandler project's language of choice was Python, something as flexible as m
 
 > The words belong to Theseus, the Duke of Athens, who lumps together "the lunatic, the lover, and the poet" as victims of their own imagination's flights. A devotee of "cool reason," he's contemptuous of the labor he describes—the "tricks" of "seething brains."[3]
 
-By the sky, I mean [Linux servers](https://pbs.twimg.com/media/DVuMOpKWAAA9_yY.jpg), which like many of these topics, can be challenging to compact enough into a digestible form. There's an understandable indifference toward Linux. It's understood that you'll likely require troubleshooting during installation, which creates a barrier to entry for any "normal" user. For Linux, it's a near expectation your graphic card drivers might not work (meaning you won't have a display to work with). With that alone, the majority of users will be confused.
+By the sky, I mean [Linux servers](/assets/img/blog/posts/dreaming-in-code-lucid-dreaming/linux-servers-mostly.webp), which like many of these topics, can be challenging to compact enough into a digestible form. There's an understandable indifference toward Linux. It's understood that you'll likely require troubleshooting during installation, which creates a barrier to entry for any "normal" user. For Linux, it's a near expectation your graphic card drivers might not work (meaning you won't have a display to work with). With that alone, the majority of users will be confused.
 
 Canonical created the Ubuntu project with the intention of being "[Linux for human beings](https://help.ubuntu.com/community/CommunityHelpWiki)." From here, I can delineate my core beliefs in the tech industry regarding Free and Open Source Software (FOSS). As standard with open-source projects, [these ideas](https://en.wikibooks.org/wiki/FOSS_A_General_Introduction/Introduction) are [open to debate](https://en.wikibooks.org/wiki/FOSS_Open_Standards/Introduction).
 
@@ -269,13 +269,9 @@ Time is incremental but definable. It is a center of control (by culture) but ca
 For the astute, many of these links lead to insecure pages, an unfortunate event because I knew the insecure Chandler links likely meant that no one was actively maintaining Chandler. We can only do so much to preserve the software, knowledge, and unique events surrounding it. There are hidden events called [Easter Eggs](http://catb.org/jargon/html/E/Easter-egg.html) in software, and they have become more widely known due to their inclusion in video games. Think of this as an easter egg, like a colophon, or just another piece of the static you see.
 
 > "We got here by having high goals," Toy continues. "Part of our struggle is in not valuing the goals equally. But there's no disagreement over the list itself. The biggest fear is that the goals are simply not meetable. We do have a proposed design. It's got some holes. It's time to talk about those holes and make sure we have plans to fill those holes so that never again, as long as I live, do we roll our eyes when the word data comes out of our mouths. This is the snake that must be killed."
-
 > "And in this meeting," Hertzfeld says, "we kill the snake—we don't just make plans to kill the snake."
-
 > "Yes," Toy answers.
-
 > "The dragon has many swords in it."
-
 > "There's also some bodies of brave knights who walked into the flames."[12]
 
 ---
