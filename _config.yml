@@ -57,6 +57,8 @@ legal:
     url:               /NOTICE/
   - title:             CHANGELOG
     url:               /CHANGELOG/
+  - title:             SOURCE
+    url:               https://github.com/obrien-k/obrien-k.github.io
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright: |
