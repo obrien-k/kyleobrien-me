@@ -9,6 +9,26 @@ sitemap: false
 * this list will be replaced by the toc
 {:toc .large-only}
 
+## v0.0.4
+Mar 13 2026
+{:.heading.post-date}
+
+### Performance
+- Removed scanline overlay — `position: fixed` full-viewport repeating gradient was the primary cause of SPA transition lag; also duplicated by Hydejack's `.animation-main` content clone during page transitions
+- Removed CRT stutter activation effect from Konami code (Superstar mode retains shake, rainbow, and star particles)
+- Removed `backdrop-filter: blur()` from post cards — expensive GPU compositing for a nearly-invisible effect (`rgba(255,255,255,0.06)` panel)
+- Removed `box-shadow` hover transitions from post cards — border-color transition only
+
+### Constellations
+- Added All Around Electronics to Neighbors section
+- Reverted card redesign back to simple link buttons — eliminated 4 Google Favicon API requests and 1 GitHub avatar CDN request per page load
+
+### Bug Fixes
+- Fix inline JS broken by `compress_html` in production
+
+### Config
+- Add SOURCE link to configuration
+
 ## v0.0.3
 Mar 11 2026
 {:.heading.post-date}
@@ -16,8 +36,8 @@ Mar 11 2026
 ### Interactivity
 - Sound toggle in sidebar footer — Web Audio API synthesized click/hover/page-transition sounds, no audio files, state persisted in localStorage
 - Status widget in sidebar — mood, activity, and now-playing pulled from `_data/status.yml`
-- Konami code Easter egg (`↑↑↓↓←→←→BA`) — triggers Superstar mode: multi-pulse CRT stutter (4 pulses, `step-end` timing), content shake, 8 seconds of rainbow color cycling with star particles, ascending/descending arpeggio
-- Superstar shake targets `.content` only (sidebar stays still); uses `left`/`top` animation to avoid breaking `position: fixed` scanline overlay
+- Konami code Easter egg (`↑↑↓↓←→←→BA`) — triggers Superstar mode: content shake, 8 seconds of rainbow color cycling with star particles, ascending/descending arpeggio
+- Superstar shake targets `.content` only (sidebar stays still); uses `left`/`top` animation to avoid creating a containing block
 - Rainbow activation delayed 200ms so first CRT stutter pulse lands on a clean screen
 - All features respect `prefers-reduced-motion`; Superstar mode falls back to a gentle color pulse
 
