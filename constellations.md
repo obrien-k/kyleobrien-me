@@ -2,29 +2,21 @@
 layout: plain
 title: Constellations
 description: >
-  These are external resources that are recommended for technical proficiency,
-  minimal design, and deep thought.
-hide_description: false
+  Links to corners of the web worth visiting.
+hide_description: true
 ---
 
-<div class="constellation-cards">
-{% for link in site.data.constellations %}
-<a href="{{ link.url }}" class="constellation-card no-mark external" target="_blank" rel="noopener">
-  <div class="constellation-card-body">
-    <div class="constellation-card-title">{{ link.title }}</div>
-    <div class="constellation-card-desc">{{ link.description }}</div>
-    <div class="constellation-card-meta">
-      <img src="https://www.google.com/s2/favicons?domain={{ link.url | split: '//' | last | split: '/' | first }}&sz=32"
-           alt="" width="16" height="16" class="constellation-card-favicon" loading="lazy">
-      <span>{{ link.site_name }}</span>
-    </div>
-  </div>
-  {% if link.image %}
-  <img src="{{ link.image }}" alt="" class="constellation-card-image" loading="lazy">
-  {% endif %}
-</a>
-{% endfor %}
-</div>
+## Neighbors
+
+<a href="https://aaelec.info" class="constellation-link no-mark">All Around Electronics</a>
+<a href="https://andrewdelisa.com/" class="constellation-link no-mark">Andrew's Space</a>
+<a href="https://gwern.net/" class="constellation-link no-mark">Gwern Branwen</a>
+
+---
+
+## Frequencies
+
+<a href="https://plaza.one/" class="constellation-link no-mark">Nightwave Plaza</a>
 
 ---
 
